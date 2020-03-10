@@ -1,0 +1,188 @@
+body {
+  color: #020918;
+  background-color: #71a3b6;
+}
+
+/* Hi, I'm Sarah */
+.intro {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400 !important;
+  font-size: 3.8em !important;
+  margin-bottom: 0;
+}
+
+/* A Full Stack Web Developer */
+.lead {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em !important;
+  color: white;
+  position: relative;
+  bottom: 1em;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.6em !important;
+  font-weight: 400 !important;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em !important;
+}
+
+h3:hover {
+  color: white !important;
+}
+
+p {
+  line-height: 1.4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+}
+
+header {
+  text-align: center;
+}
+
+hr {
+  margin-top: 30px;
+  border-width: 0;
+  border-top: 1px solid white;
+  width: 70px;
+}
+
+section {
+  margin: 30px;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  margin-left: 0em;
+}
+
+/* Nav bar  */
+.nav-bar {
+  text-align: center !important;
+  line-height: 1.4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  padding: 1em;
+  position: relative;
+  right: 1em;
+}
+
+.nav-item {
+  display: inline-block;
+  color: #020918;
+}
+
+.nav-item:hover {
+  color: white;
+}
+
+/*  About Me section */
+#aboutMe {
+  margin-bottom: 2.5em;
+}
+
+.projects a {
+  color: #020918;
+}
+
+/* Skills section */
+.skills {
+  text-align: center;
+}
+
+li {
+  line-height: 1.4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  list-style: none !important;
+  font-weight: 600;
+}
+
+#skillsContent {
+  margin-bottom: 2.5em;
+}
+
+/* Social icons  */
+.social-links1 a {
+  font-size: 25px;
+  padding: 0px 8px;
+  text-decoration: none;
+  color: #020918;
+}
+
+.social-links1 a:hover {
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+}
+
+/* Portfolio Section  */
+.portfolioIcon {
+  position: relative;
+  right: 0.4em;
+}
+
+.portfolioIcon:hover {
+  color: white;
+}
+
+#portfolioTitle {
+  text-decoration: none !important;
+}
+
+#portfolioTitle:hover {
+  color: white;
+  text-decoration: underline !important;
+}
+
+#projectDescription {
+  margin-bottom: 2.5em;
+}
+
+/* Footer */
+#emailLink {
+  color: white;
+  text-decoration: none;
+}
+
+.social-links2 a {
+  font-size: 25px;
+  padding: 0px 8px;
+  text-decoration: none;
+  color: #020918;
+  text-align: center;
+}
+
+.social-links2 a:hover {
+  color: white;
+}
+
+.social-footer {
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+.footer {
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+  section {
+    margin: 10px;
+  }
+}
