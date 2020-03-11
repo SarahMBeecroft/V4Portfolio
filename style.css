@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  color: #020918;
   background-color: #71a3b6;
+  background-image: url('cubes.png');
 }
 
 /* Hi, I'm Sarah */
