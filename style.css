@@ -30,6 +30,7 @@ h2 {
   font-weight: 400 !important;
   color: white;
   text-align: center;
+  padding: 0.5em;
 }
 
 h3 {
@@ -106,6 +107,54 @@ canvas {
   text-align: center;
 }
 
+.container-skills {
+  margin: 20px auto 0 auto;
+  max-width: 400px;
+}
+
+.bar {
+  position: relative;
+  background-color: #d8d8d8;
+  height: 10px;
+  margin: 0 0 20px 0;
+}
+.bar-fill {
+  position: absolute;
+  height: 10px;
+}
+.bar-title {
+  position: relative;
+  text-align: left;
+  margin: 0 0 5px 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.percent {
+  position: absolute;
+  right: 0;
+}
+
+.bar-fill-html {
+  width: 90%;
+  background-color: #e44d26;
+}
+
+.bar-fill-css {
+  width: 70%;
+  background-color: violet;
+}
+
+.bar-fill-javascript {
+  width: 65%;
+  background-color: #eed818;
+}
+
+.bar-fill-react {
+  width: 60%;
+  background-color: #5ed4f4;
+}
+
 li {
   line-height: 1.4;
   font-family: 'Raleway', sans-serif;
@@ -114,8 +163,14 @@ li {
   font-weight: 600;
 }
 
+/* Adds margin below skills section */
 #skillsContent {
   margin-bottom: 2.5em;
+}
+
+.adjustList {
+  position: relative;
+  right: 1em;
 }
 
 /* Social icons  */
@@ -131,7 +186,7 @@ li {
 }
 
 .container {
-  max-width: 850px;
+  max-width: 840px;
   margin: 60px auto;
 }
 
