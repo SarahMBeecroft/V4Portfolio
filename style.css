@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #71a3b6;
-  background-image: url('images/cubes.png');
+  background-image: url('images/cubes.png') !important;
 }
 
 /* Hi, I'm Sarah */
