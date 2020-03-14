@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #71a3b6;
-  background-image: url('cubes.png');
+  background-image: url('images/cubes.png');
 }
 
 /* Hi, I'm Sarah */
@@ -151,7 +151,7 @@ canvas {
 }
 
 .bar-fill-react {
-  width: 60%;
+  width: 50%;
   background-color: #020918;
 }
 
@@ -211,6 +211,15 @@ li {
 #portfolioTitle:hover {
   color: white;
   text-decoration: underline !important;
+}
+
+.portfolioImage {
+  width: 300px;
+  height: 150px;
+}
+
+.portfolioImage:hover {
+  opacity: 0.5;
 }
 
 #projectDescription {
