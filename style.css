@@ -5,6 +5,7 @@ html {
 body {
   background-color: #71a3b6;
   background-image: url('images/cubes.png') !important;
+  overflow-x: hidden !important;
 }
 
 a {
@@ -196,12 +197,12 @@ canvas {
 
 /* Footer */
 .footerSection {
-  padding: 2em;
+  overflow-x: hidden;
   background-color: #020918;
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
   position: relative;
   top: 2em;
+  right: 0.5em;
 }
 
 #footerText {
@@ -237,6 +238,7 @@ canvas {
 .footer {
   margin-bottom: 0 !important;
   text-align: center;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 450px) {
