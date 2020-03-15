@@ -117,55 +117,8 @@ canvas {
   text-align: center;
 }
 
-.container-skills {
-  margin: 20px auto 0 auto;
-  max-width: 400px;
-}
-
-.bar {
-  position: relative;
-  background-color: #d8d8d8;
-  height: 10px;
-  margin: 0 0 20px 0;
-}
-.bar-fill {
-  position: absolute;
-  height: 10px;
-}
-.bar-title {
-  position: relative;
-  text-align: left;
-  margin: 0 0 5px 0;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.1em;
-  font-weight: 600;
-}
-.percent {
-  position: absolute;
-  right: 0;
-}
-
-.bar-fill-html {
-  width: 90%;
-  background-color: #020918;
-}
-
-.bar-fill-css {
-  width: 70%;
-  background-color: #020918;
-}
-
-.bar-fill-javascript {
-  width: 65%;
-  background-color: #020918;
-}
-
-.bar-fill-react {
-  width: 50%;
-  background-color: #020918;
-}
-
-li {
+.skillsTable {
+  display: inline-block;
   line-height: 1.4;
   font-family: 'Raleway', sans-serif;
   font-size: 1.1em;
@@ -175,12 +128,7 @@ li {
 
 /* Adds margin below skills section */
 #skillsContent {
-  margin-bottom: 2.5em;
-}
-
-.adjustList {
-  position: relative;
-  right: 1em;
+  margin: 2em 0em 2em 0em;
 }
 
 /* Social icons  */
