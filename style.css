@@ -136,11 +136,11 @@ canvas {
   font-size: 25px;
   padding: 0px 8px;
   text-decoration: none;
-  color: #020918;
+  color: white;
 }
 
 .social-links1 a:hover {
-  color: white;
+  color: #0c3386;
 }
 
 .container {
@@ -195,9 +195,26 @@ canvas {
 }
 
 /* Footer */
+.footerSection {
+  padding: 2em;
+  background-color: #020918;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  position: relative;
+  top: 2em;
+}
+
+#footerText {
+  color: white !important;
+}
+
 #emailLink {
   color: white;
   text-decoration: none;
+}
+
+#emailLink:hover {
+  color: #0c3386;
 }
 
 .social-links2 a {
