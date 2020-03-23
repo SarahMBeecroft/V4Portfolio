@@ -3,8 +3,7 @@ html {
 }
 
 body {
-  background-color: #71a3b6;
-  background-image: url('images/cubes.png') !important;
+  background: linear-gradient(#e66465, #9198e5) !important;
   overflow-x: hidden !important;
 }
 
