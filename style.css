@@ -105,7 +105,7 @@ canvas {
 }
 
 #aboutMe {
-  margin-bottom: 2.5em;
+  margin-bottom: 1.2em;
 }
 
 .projects a {
@@ -144,7 +144,7 @@ canvas {
 }
 
 .container {
-  max-width: 840px;
+  max-width: 800px;
   margin: 60px auto;
 }
 
@@ -155,7 +155,7 @@ canvas {
 
 .portfolioIcon {
   position: relative;
-  bottom: 2em !important;
+  bottom: 1em !important;
 }
 
 .portfolioIconText {
@@ -181,9 +181,7 @@ canvas {
 .portfolioImage {
   width: 300px;
   height: 150px;
-  border: solid 1px #020918;
   position: relative;
-  bottom: 0.2em;
 }
 
 .portfolioImage:hover {
