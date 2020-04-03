@@ -137,7 +137,7 @@ canvas {
 }
 
 td:hover {
-  text-decoration: overline;
+  color: white;
   cursor: pointer;
 }
 
@@ -170,7 +170,6 @@ td:hover {
 
 .portfolioIcon {
   position: relative;
-  bottom: 1em !important;
 }
 
 .portfolioIconText {
@@ -190,13 +189,13 @@ td:hover {
 
 #portfolioTitle:hover {
   color: white;
-  text-decoration: underline !important;
 }
 
 .portfolioImage {
   width: 300px;
   height: 150px;
   position: relative;
+  margin-bottom: 01em;
   border: none !important;
 }
 
@@ -205,7 +204,9 @@ td:hover {
 }
 
 #projectDescription {
-  margin-bottom: 2.5em;
+  background-color: rgba(255, 255, 255, 0.219);
+  padding: 2em 3em 2em 3em;
+  border: solid 1px #020918;
 }
 
 /* Footer */
