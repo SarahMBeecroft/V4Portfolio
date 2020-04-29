@@ -412,7 +412,7 @@ span {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  transition: color 4s ease
+  transition: color 2s ease
   
 }
 
@@ -420,21 +420,21 @@ span:focus,
 span:hover {
   outline: 0;
   color: #9198e5;
-  -webkit-transition: color 1s ease;
-  -moz-transition: color 1s ease;
-  -ms-transition: color 1s ease;
-  -o-transition: color 1s ease;
-  transition: color 1s ease;
+  -webkit-transition: color 2s ease;
+  -moz-transition: color 2s ease;
+  -ms-transition: color 2s ease;
+  -o-transition: color 2s ease;
+  transition: color 2s ease;
   cursor: pointer
 }
 
 span:after,
 span:before {
-  -webkit-transition: all 1s ease 0s;
-  -moz-transition: all 1s ease 0s;
-  -ms-transition: all 1s ease 0s;
-  -o-transition: all 1s ease 0s;
-  transition: all 1s ease 0s
+  -webkit-transition: all 2s ease 0s;
+  -moz-transition: all 2s ease 0s;
+  -ms-transition: all 2s ease 0s;
+  -o-transition: all 2s ease 0s;
+  transition: all 2s ease 0s
 }
 
 span:focus:after,
@@ -443,11 +443,11 @@ span:hover:after,
 span:hover:before {
   outline: 0;
   background-color: white;
-  -webkit-transition: all 1s ease 0s;
-  -moz-transition: all 1s ease 0s;
-  -ms-transition: all 1s ease 0s;
-  -o-transition: all 1s ease 0s;
-  transition: all 1s ease 0s
+  -webkit-transition: all 2s ease 0s;
+  -moz-transition: all 2s ease 0s;
+  -ms-transition: all 2s ease 0s;
+  -o-transition: all 2s ease 0s;
+  transition: all 2s ease 0s
 }
 
 
