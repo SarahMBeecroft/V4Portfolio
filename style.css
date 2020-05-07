@@ -530,57 +530,12 @@ span:hover:before {
 
 /* Media Queries for change background buttons */
 /* Buttons to change background on click */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
   .buttonDiv {
-    position: relative; 
-    left: 24em;
-    bottom: 2em;
+    display: none;
   }
 }
 
-
-@media only screen and (max-width: 650px) {
-  #changeColor {
-    font-size: .7em;
-  }
-
-  .buttonDiv {
-    position: relative; 
-    left: 8em;
-    bottom: 2em;
-  }
-
-  .button1 {
-    width: 35px;
-    height: 15px;
-    background-color: #4c5bfd;
-    border: solid white 1.5px;
-    margin: .1em;
-    position: relative;
-    top: .1em;
-  }
-  
-  .button2 {
-    width: 35px;
-    height: 15px;
-    background-color: #d155d1;
-    border: solid white 1.5px;
-    margin: .1em;
-    position: relative;
-    top: .1em;
-  }
-  
-  .button3 {
-    width: 35px;
-    height: 15px;
-    background-color: #0b8eaf;
-    border: solid white 1.5px;
-    margin: .1em;
-    position: relative;
-    top: .1em;
-  }
-  
-}
 
 
 
