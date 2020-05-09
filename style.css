@@ -7,6 +7,19 @@ body {
   overflow-x: hidden !important;
 }
 
+/* Button classes to change background color once added */
+.clicked1 {
+  background: linear-gradient(#4c5bfd, #9198e5);
+}
+
+.clicked2 {
+  background: linear-gradient(#a339a3, #d89ad8);
+}
+
+.clicked3 {
+  background: linear-gradient(#0b8eaf, #80bfc5);
+}
+
 /* Buttons to change background on click */
 #changeColor {
   font-family: 'Raleway', sans-serif;
@@ -32,7 +45,7 @@ body {
 .button2 {
   width: 40px;
   height: 20px;
-  background-color: #d155d1;
+  background-color: #a339a3;
   border: solid white 1.5px;
   margin: .2em;
   position: relative;
@@ -529,7 +542,7 @@ span:hover:before {
 
 /* Media Queries for change background buttons */
 /* Buttons to change background on click */
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   .buttonDiv {
     display: none;
   }

@@ -18,13 +18,9 @@
   <!-- Links to my style sheet -->
   <link href="style.css" rel="stylesheet" />
 
-  <script>
-    // Function to change webpage background color
-    function changeBodyBg(color) {
-      document.body.style.background = color;
-    }
+  <!-- Links to jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  </script>
 
 </head>
 
@@ -33,13 +29,13 @@
   <div class="container">
 
 
-    <!-- <div class="buttonDiv">
+    <div class="buttonDiv">
       <label id="changeColor">Change background color:</label>
 
-      <button type="button" class="button1" onclick="changeBodyBg('linear-gradient(#4c5bfd, #9198e5)');"></button>
-      <button type="button" class="button2" onclick="changeBodyBg('linear-gradient(#d155d1, #d89ad8)');"></button>
+      <button type="button" class="button1"></button>
+      <button type="button" class="button2"></button>
       <button type="button" class="button3" onclick="changeBodyBg('linear-gradient(#0b8eaf, #80bfc5)');"></button>
-    </div> -->
+    </div>
 
 
 
@@ -262,19 +258,19 @@
 
 
         <a href="mailto:contact@sarahbeecroft.me" id="emailLink">&nbsp;contact@sarahbeecroft.me</a>
-        <p id="footerText">Or find me on:</p>
+      <p id="footerText">Or find me on:</p>
 
-        <div class="social-links1">
-          <a href="https://twitter.com/sarah_bean" target="_blank">
-            <i class="fab fa-twitter" title="Twitter"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/sarah-beecroft-347b8747" target="_blank">
-            <i class="fab fa-linkedin" title="LinkedIn"></i>
-          </a>
-          <a href="https://github.com/SarahMBeecroft" target="_blank">
-            <i class="fab fa-github" title="GitHub"></i>
-          </a>
-        </div>
+      <div class="social-links1">
+        <a href="https://twitter.com/sarah_bean" target="_blank">
+          <i class="fab fa-twitter" title="Twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sarah-beecroft-347b8747" target="_blank">
+          <i class="fab fa-linkedin" title="LinkedIn"></i>
+        </a>
+        <a href="https://github.com/SarahMBeecroft" target="_blank">
+          <i class="fab fa-github" title="GitHub"></i>
+        </a>
+      </div>
     </section>
 
     <!-- Footer -->
@@ -285,6 +281,28 @@
     </footer>
   </div><!-- End Contact and Footer section-->
 
+  <script>
+    // jQuery to change background color on button click
+    $(".button1").click(function () {
+      $("body").removeClass("clicked2");
+      $("body").removeClass("clicked3");
+      $("body").addClass("clicked1");
+    });
+
+    $(".button2").click(function () {
+      $("body").removeClass("clicked1");
+      $("body").removeClass("clicked3");
+      $("body").addClass("clicked2");
+    });
+
+    $(".button3").click(function () {
+      $("body").removeClass("clicked1");
+      $("body").removeClass("clicked2");
+      $("body").addClass("clicked3");
+    });
+
+
+  </script>
 
 </body>
 
