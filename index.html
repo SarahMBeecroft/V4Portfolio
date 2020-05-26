@@ -29,13 +29,13 @@
   <div class="container">
 
 
-    <div class="buttonDiv">
+    <!-- <div class="buttonDiv">
       <label id="changeColor">Change background color:</label>
 
       <button type="button" class="button1"></button>
       <button type="button" class="button2"></button>
       <button type="button" class="button3" onclick="changeBodyBg('linear-gradient(#0b8eaf, #80bfc5)');"></button>
-    </div>
+    </div> -->
 
 
 
@@ -81,16 +81,15 @@
     <section class="about">
       <h2>About Me</h2>
       <p>
-        <strong>Hi, I'm Sarah!</strong> I'm a full stack web developer with a strong digital marketing background. I've
-        had a passion for learning for as long as I can remember, and was drawn to the world of web development because
+        <strong>Hi, I'm Sarah!</strong> I'm a full stack web developer with a strong digital marketing background. I was
+        drawn to the world of web development because
         of the endless
         possibilities and opportunities to grow and build.
       </p>
       <p id="aboutMe">
         I love learning new technologies, with focus on front-end design. My
         personal style is simple, modern, and effective. When not at a
-        computer, I enjoy going for long walks around Seattle, going to shows,
-        or sitting down with a game (action-adventure RPGs are my jam).
+        computer, you can probably catch me out exploring Seattle or chilling with a game.
       </p>
     </section>
 
@@ -282,25 +281,43 @@
   </div><!-- End Contact and Footer section-->
 
   <script>
+
     // jQuery to change background color on button click
-    $(".button1").click(function () {
-      $("body").removeClass("clicked2");
-      $("body").removeClass("clicked3");
-      $("body").addClass("clicked1");
-    });
+    // $(".button1").click(function () {
+    //   $("body").removeClass("clicked2");
+    //   $("body").removeClass("clicked3");
+    //   $("body").addClass("clicked1").fadeIn(1000);
+    // });
 
-    $(".button2").click(function () {
-      $("body").removeClass("clicked1");
-      $("body").removeClass("clicked3");
-      $("body").addClass("clicked2");
-    });
+    // $(".button2").click(function () {
+    //   $("body").removeClass("clicked1");
+    //   $("body").removeClass("clicked3");
+    //   $("body").addClass("clicked2").fadeIn(1000);
+    // });
 
-    $(".button3").click(function () {
-      $("body").removeClass("clicked1");
-      $("body").removeClass("clicked2");
-      $("body").addClass("clicked3");
-    });
+    // $(".button3").click(function () {
+    //   $("body").removeClass("clicked1");
+    //   $("body").removeClass("clicked2");
+    //   $("body").addClass("clicked3").fadeIn(1000);
+    // });
 
+    $('.button1').on('click', function (event) {
+      $('body').addClass('clicked1');
+      $('body').removeClass('clicked2');
+      $('body').removeClass('clicked3');
+    })
+
+    $('.button2').on('click', function (event) {
+      $('body').addClass('clicked2');
+      $('body').removeClass('clicked1');
+      $('body').removeClass('clicked3');
+    })
+
+    $('.button3').on('click', function (event) {
+      $('body').addClass('clicked3');
+      $('body').removeClass('clicked1');
+      $('body').removeClass('clicked2');
+    })
 
   </script>
 

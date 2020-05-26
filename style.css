@@ -3,22 +3,51 @@ html {
 }
 
 body {
-  background: linear-gradient(#4c5bfd, #9198e5);
   overflow-x: hidden !important;
+  background: linear-gradient(90deg, #391392, #6219b6, #8124ac, #9a41c3);
+  background-size: 400% 400%;
+  animation: gradient 16s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* Button classes to change background color once added */
-.clicked1 {
+/* .clicked1 {
   background: linear-gradient(#4c5bfd, #9198e5);
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
 }
 
 .clicked2 {
   background: linear-gradient(#a339a3, #d89ad8);
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
 }
 
 .clicked3 {
   background: linear-gradient(#0b8eaf, #80bfc5);
-}
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+} */
 
 /* Buttons to change background on click */
 #changeColor {
@@ -29,7 +58,6 @@ body {
 .buttonDiv {
   position: relative;
   left: 45em;
- 
 }
 
 .button1 {
@@ -37,9 +65,9 @@ body {
   height: 20px;
   background-color: #4c5bfd;
   border: solid white 1.5px;
-  margin: .2em;
+  margin: 0.2em;
   position: relative;
-  top: .2em;
+  top: 0.2em;
 }
 
 .button2 {
@@ -47,9 +75,9 @@ body {
   height: 20px;
   background-color: #a339a3;
   border: solid white 1.5px;
-  margin: .2em;
+  margin: 0.2em;
   position: relative;
-  top: .2em;
+  top: 0.2em;
 }
 
 .button3 {
@@ -57,9 +85,9 @@ body {
   height: 20px;
   background-color: #0b8eaf;
   border: solid white 1.5px;
-  margin: .2em;
+  margin: 0.2em;
   position: relative;
-  top: .2em;
+  top: 0.2em;
 }
 
 a {
@@ -162,16 +190,15 @@ canvas {
 /*  About Me section */
 .about {
   background-color: rgba(255, 255, 255, 0);
-  padding: .5em 3em 3em 3em;
-  box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  padding: 0.5em 3em 3em 3em;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -6px -6px 8px 0 rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   justify-content: center;
 }
 
 .about:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
   cursor: pointer;
 }
 
@@ -274,15 +301,14 @@ td:hover {
 #projectDescription {
   background-color: rgba(255, 255, 255, 0);
   padding: 2em 3em 2em 3em;
-  box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -4px -4px 12px 0 rgba(255, 255, 255, 0.4);
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -6px -6px 8px 0 rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   justify-content: center;
 }
 
 #projectDescription:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
   cursor: pointer;
 }
 
@@ -349,70 +375,69 @@ span {
 .underline-opening:before,
 .underline-right:after {
   position: absolute;
-  z-index: -1
+  z-index: -1;
 }
 
 .underline-opening:after {
-  content: "";
+  content: '';
   width: 3px;
   height: 3px;
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .underline-opening:focus:after,
 .underline-opening:hover:after {
   width: 100%;
-  height: 3px
+  height: 3px;
 }
 
 .underline-opening:before {
-  content: "";
+  content: '';
   width: 3px;
   height: 3px;
   bottom: 0;
   right: 0;
   left: 0;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .underline-opening:focus:before,
 .underline-opening:hover:before {
   width: 100%;
-  height: 3px
+  height: 3px;
 }
 
-
 main {
-  height: 100%
+  height: 100%;
 }
 
 .left-side {
   position: fixed;
-  background: #2C3E50;
+  background: #2c3e50;
   overflow: auto;
   z-index: 1;
-  left: -100%
+  left: -100%;
 }
 
 .animated,
 .btn-nav {
-  z-index: 9999
+  z-index: 9999;
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .left-side {
-      width: 30%;
-      left: 0
+    width: 30%;
+    left: 0;
   }
 }
 
-@media (min-width:1400px) {
+@media (min-width: 1400px) {
   .left-side {
-      width: 25%;
-      left: 0
+    width: 25%;
+    left: 0;
   }
 }
 
@@ -420,18 +445,18 @@ main {
   position: absolute;
   right: 0;
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .right-side {
-      width: 70%
+    width: 70%;
   }
 }
 
-@media (min-width:1400px) {
+@media (min-width: 1400px) {
   .right-side {
-      width: 75%
+    width: 75%;
   }
 }
 
@@ -439,13 +464,13 @@ main {
   margin: 100px auto 0;
   text-align: center;
   padding-bottom: 50px;
-  list-style: none
+  list-style: none;
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .effects-list {
-      text-align: left;
-      padding-left: 30px
+    text-align: left;
+    padding-left: 30px;
   }
 }
 
@@ -454,7 +479,7 @@ main {
   box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none
+  -ms-user-select: none;
 }
 
 .effect-demo,
@@ -468,7 +493,7 @@ span {
   -webkit-tap-highlight-color: transparent;
   padding: 10px;
   white-space: nowrap;
-  overflow: hidden
+  overflow: hidden;
 }
 
 span {
@@ -480,8 +505,7 @@ span {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  transition: color 2s ease
-  
+  transition: color 2s ease;
 }
 
 span:focus,
@@ -493,7 +517,7 @@ span:hover {
   -ms-transition: color 2s ease;
   -o-transition: color 2s ease;
   transition: color 2s ease;
-  cursor: pointer
+  cursor: pointer;
 }
 
 span:after,
@@ -502,7 +526,7 @@ span:before {
   -moz-transition: all 2s ease 0s;
   -ms-transition: all 2s ease 0s;
   -o-transition: all 2s ease 0s;
-  transition: all 2s ease 0s
+  transition: all 2s ease 0s;
 }
 
 span:focus:after,
@@ -515,9 +539,8 @@ span:hover:before {
   -moz-transition: all 2s ease 0s;
   -ms-transition: all 2s ease 0s;
   -o-transition: all 2s ease 0s;
-  transition: all 2s ease 0s
+  transition: all 2s ease 0s;
 }
-
 
 /* Bouncing hover effects */
 @keyframes bounce {
@@ -547,11 +570,3 @@ span:hover:before {
     display: none;
   }
 }
-
-
-
-
-
-
-
-
