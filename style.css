@@ -125,6 +125,10 @@ h2 {
   padding: 0.5em;
 }
 
+#contactText {
+  color: white;
+}
+
 h3 {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.2em !important;
