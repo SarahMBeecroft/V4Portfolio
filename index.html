@@ -282,42 +282,40 @@
 
   <script>
 
+    let page = $("html, body");
+
+    $("body").scroll(function (e) {
+
+      page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function () {
+        page.stop();
+      });
+
+      page.animate({ scrollTop: $(this).position().top }, 'slow', function () {
+        page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
+      });
+
+      return false;
+    });
+
     // jQuery to change background color on button click
-    // $(".button1").click(function () {
-    //   $("body").removeClass("clicked2");
-    //   $("body").removeClass("clicked3");
-    //   $("body").addClass("clicked1").fadeIn(1000);
-    // });
 
-    // $(".button2").click(function () {
-    //   $("body").removeClass("clicked1");
-    //   $("body").removeClass("clicked3");
-    //   $("body").addClass("clicked2").fadeIn(1000);
-    // });
+    // $('.button1').on('click', function (event) {
+    //   $('body').addClass('clicked1');
+    //   $('body').removeClass('clicked2');
+    //   $('body').removeClass('clicked3');
+    // })
 
-    // $(".button3").click(function () {
-    //   $("body").removeClass("clicked1");
-    //   $("body").removeClass("clicked2");
-    //   $("body").addClass("clicked3").fadeIn(1000);
-    // });
+    // $('.button2').on('click', function (event) {
+    //   $('body').addClass('clicked2');
+    //   $('body').removeClass('clicked1');
+    //   $('body').removeClass('clicked3');
+    // })
 
-    $('.button1').on('click', function (event) {
-      $('body').addClass('clicked1');
-      $('body').removeClass('clicked2');
-      $('body').removeClass('clicked3');
-    })
-
-    $('.button2').on('click', function (event) {
-      $('body').addClass('clicked2');
-      $('body').removeClass('clicked1');
-      $('body').removeClass('clicked3');
-    })
-
-    $('.button3').on('click', function (event) {
-      $('body').addClass('clicked3');
-      $('body').removeClass('clicked1');
-      $('body').removeClass('clicked2');
-    })
+    // $('.button3').on('click', function (event) {
+    //   $('body').addClass('clicked3');
+    //   $('body').removeClass('clicked1');
+    //   $('body').removeClass('clicked2');
+    // })
 
   </script>
 
