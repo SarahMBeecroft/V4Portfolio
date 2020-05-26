@@ -119,8 +119,8 @@ a {
 h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.6em !important;
-  font-weight: 400 !important;
-  color: white;
+  font-weight: 600 !important;
+  color: #000750;
   text-align: center;
   padding: 0.5em;
 }
@@ -225,8 +225,12 @@ canvas {
   font-weight: 600;
 }
 
-td:hover {
+td {
   color: white;
+}
+
+td:hover {
+  color: #000750;
   cursor: pointer;
 }
 
