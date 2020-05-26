@@ -554,13 +554,13 @@ span:hover:before {
   }
 
   40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
   }
 
   80% {
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
   }
 }
 
