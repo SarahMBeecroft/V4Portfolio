@@ -4,7 +4,7 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background: linear-gradient(90deg, #391392, #6219b6, #8124ac, #9a41c3);
+  background: linear-gradient(-45deg, #250869, #5317a1, #6c1477, #790c58);
   background-size: 400% 400%;
   animation: gradient 16s ease infinite;
 }
