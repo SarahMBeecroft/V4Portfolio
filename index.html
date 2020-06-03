@@ -285,7 +285,7 @@
 
     let page = $("html, body");
 
-    $("body").scroll(function (e) {
+    $("html, body").scroll(function (e) {
 
       page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function () {
         page.stop();
