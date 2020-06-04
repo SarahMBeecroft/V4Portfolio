@@ -588,7 +588,11 @@ span:hover:before {
     font-family: 'Raleway', sans-serif;
     font-size: 0.9em;
     padding: 0.9em;
-    position: relative;
-    right: 1em;
+  }
+  .lead {
+    font-size: 1.8em !important;
+  }
+  h2 {
+    font-size: 1.5em;
   }
 }
