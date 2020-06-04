@@ -4,8 +4,15 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background: linear-gradient(-45deg, #250869, #5317a1, #6c1477, #790c58);
-  background-size: 400% 400%;
+  background: linear-gradient(
+    -45deg,
+    #250869,
+    #4e129e,
+    #75096c,
+    #c51b4e,
+    yellow
+  );
+  background-size: 200% 200%;
   animation: gradient 16s ease infinite;
 }
 
