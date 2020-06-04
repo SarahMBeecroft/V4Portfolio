@@ -4,14 +4,7 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background: linear-gradient(
-    -45deg,
-    #250869,
-    #4e129e,
-    #75096c,
-    #c51b4e,
-    yellow
-  );
+  background: linear-gradient(-45deg, #250869, #4e129e, #75096c, yellow);
   background-size: 200% 200%;
   animation: gradient 16s ease infinite;
 }
@@ -580,7 +573,6 @@ span:hover:before {
 }
 
 /* Media Queries for change background buttons */
-/* Buttons to change background on click */
 @media only screen and (max-width: 1000px) {
   .nav-bar {
     text-align: center !important;
