@@ -289,6 +289,8 @@ td:hover {
 #portfolioTitle {
   text-decoration: none !important;
   color: white;
+  position: relative;
+  top: 0.6em;
 }
 
 #portfolioTitle:hover {
