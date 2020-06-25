@@ -4,9 +4,25 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background: linear-gradient(-45deg, #ffb844, #fd5347, #631bc2, #4211b4);
-  background-size: 400% 400%;
-  animation: gradient 16s ease infinite;
+  background: #5433ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #20bdff,
+    #23a3fe,
+    #268afd,
+    #2970fd,
+    #2b56fc,
+    #2e3dfb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #20bdff,
+    #23a3fe,
+    #268afd,
+    #2970fd,
+    #2b56fc,
+    #2e3dfb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @keyframes gradient {
