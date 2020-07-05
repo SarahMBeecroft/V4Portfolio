@@ -501,9 +501,9 @@ span:hover:before {
     padding: 0.9em;
   }
   .lead {
-    font-size: 1.6em !important;
+    font-size: 1.4em !important;
   }
   h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 }
