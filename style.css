@@ -4,7 +4,7 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background-image: linear-gradient(110deg, #4a01be 10%, #fd6585 100%);
+  background-image: linear-gradient(100deg, #4a01be 10%, #fd6585 100%);
 }
 
 a {
@@ -18,8 +18,25 @@ a {
   font-size: 4em !important;
   margin-bottom: 0;
   color: #000750;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
 }
 
+.hover-effect {
+  background-image: linear-gradient(
+    transparent calc(65% - 5px),
+    darken(black, 15%) 5px
+  );
+  background-size: 0;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.5s ease;
+}
+
+.hover-effect:hover {
+  background-size: 100%;
+}
 /* A Full Stack Web Developer */
 .lead {
   font-family: 'Quicksand', sans-serif;
