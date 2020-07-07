@@ -539,6 +539,7 @@ main {
     font-size: 2.7em;
     position: relative;
     right: 0.7em;
+    top: 1em;
   }
   .lead {
     font-size: 1.4em !important;
