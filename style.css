@@ -30,7 +30,6 @@ a {
   color: #000750;
   cursor: pointer;
   position: relative;
-
   display: inline-block;
 }
 
@@ -408,9 +407,8 @@ main {
   }
   .intro {
     font-size: 2.7em;
-    position: relative;
-    right: 0.7em;
   }
+
   .lead {
     font-size: 1.4em !important;
     position: relative;
