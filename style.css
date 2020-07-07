@@ -4,8 +4,17 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background-size: 200%;
-  background-image: linear-gradient(110deg, #2f08dd 10%, #fd6585 40%);
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 a {
@@ -21,146 +30,8 @@ a {
   color: #000750;
   cursor: pointer;
   position: relative;
-  bottom: 0.8em;
+
   display: inline-block;
-}
-
-.fill-top-right {
-  position: relative;
-  -ms-user-select: none;
-  display: inline;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.fill-top-right:before {
-  width: 3px;
-  content: '';
-  top: 0;
-}
-
-.fill-top-right {
-  -moz-transition: color 2s ease;
-  -ms-transition: color 2s ease;
-  -o-transition: color 2s ease;
-}
-
-.fill-top-right {
-  z-index: 2;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  -webkit-touch-callout: none;
-  -webkit-tap-highlight-color: transparent;
-  white-space: nowrap;
-  overflow: hidden;
-  -webkit-transition: color 2s ease;
-  transition: color 2s ease;
-}
-
-.fill-top-right:focus,
-.fill-top-right:hover {
-  -webkit-transition: color 2s ease;
-  -moz-transition: color 2s ease;
-  -ms-transition: color 2s ease;
-  -o-transition: color 2s ease;
-}
-
-.fill-top-right:focus,
-.fill-top-right:hover {
-  outline: 0;
-  color: #fd658673;
-  transition: color 2s ease;
-  cursor: pointer;
-}
-
-.fill-top-right:after,
-.fill-top-right:before {
-  -webkit-transition: all 2s ease 0s;
-  -moz-transition: all 2s ease 0s;
-  -ms-transition: all 2s ease 0s;
-  -o-transition: all 2s ease 0s;
-  transition: all 2s ease 0s;
-}
-
-.fill-top-right:focus:after,
-.fill-top-right:focus:before,
-.fill-top-right:hover:after,
-.fill-top-right:hover:before {
-  outline: 0;
-  background-color: #fd658673;
-  -webkit-transition: all 2s ease 0s;
-  -moz-transition: all 2s ease 0s;
-  -ms-transition: all 2s ease 0s;
-  -o-transition: all 2s ease 0s;
-  transition: all 2s ease 0s;
-}
-
-.fill-top-right:before {
-  position: absolute;
-  z-index: -1;
-  height: 3px;
-  left: 0;
-}
-
-.fill-top-right:focus:before,
-.fill-top-right:hover:before {
-  width: 100%;
-  height: 100%;
-}
-
-.fill-top-right:hover {
-  color: #2c3e50 !important;
-}
-
-span {
-  height: 90px;
-  width: 420px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  transition: color 3s ease;
-}
-
-span:focus,
-span:hover {
-  outline: 0;
-  color: #fd658673;
-  -webkit-transition: color 1s ease;
-  -moz-transition: color 1s ease;
-  -ms-transition: color 1s ease;
-  -o-transition: color 1s ease;
-  transition: color 1s ease;
-  cursor: pointer;
-}
-
-span:after,
-span:before {
-  -webkit-transition: all 2s ease 0s;
-  -moz-transition: all 2s ease 0s;
-  -ms-transition: all 2s ease 0s;
-  -o-transition: all 2s ease 0s;
-  transition: all 2s ease 0s;
-}
-
-span:focus:after,
-span:focus:before,
-span:hover:after,
-span:hover:before {
-  outline: 0;
-  background-color: #fd658673;
-  -webkit-transition: all 2s ease 0s;
-  -moz-transition: all 2s ease 0s;
-  -ms-transition: all 2s ease 0s;
-  -o-transition: all 2s ease 0s;
-  transition: all 2s ease 0s;
 }
 
 /* A Full Stack Web Developer */
