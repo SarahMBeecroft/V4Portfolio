@@ -4,7 +4,8 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background-image: linear-gradient(104deg, #2f08dd 10%, #fd6585 100%);
+  background-size: 200%;
+  background-image: linear-gradient(110deg, #2f08dd 10%, #fd6585 40%);
 }
 
 a {
@@ -15,7 +16,7 @@ a {
 .intro {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400 !important;
-  font-size: 4em !important;
+  font-size: 4em;
   margin-bottom: 0;
   color: #000750;
   cursor: pointer;
@@ -440,46 +441,6 @@ span {
   display: inline-block !important;
 }
 
-/* Text hover effect for "Hi, I'm Sarah" */
-.underline-opening:after,
-.underline-opening:before,
-.underline-right:after {
-  position: absolute;
-  z-index: -1;
-}
-
-.underline-opening:after {
-  content: '';
-  width: 4px;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-.underline-opening:focus:after,
-.underline-opening:hover:after {
-  width: 100%;
-  height: 4px;
-}
-
-.underline-opening:before {
-  content: '';
-  width: 4px;
-  height: 4px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: 0 auto;
-}
-
-.underline-opening:focus:before,
-.underline-opening:hover:before {
-  width: 100%;
-  height: 4px;
-}
-
 main {
   height: 100%;
 }
@@ -544,74 +505,6 @@ main {
   }
 }
 
-.effect-demo,
-.effect-demo.block {
-  box-sizing: border-box;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-
-.effect-demo,
-span {
-  font-size: 3em;
-  font-weight: 700;
-  position: relative;
-  z-index: 2;
-  text-decoration: none;
-  -webkit-touch-callout: none;
-  -webkit-tap-highlight-color: transparent;
-  padding: 10px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-span {
-  display: inline;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  transition: color 2s ease;
-}
-
-span:focus,
-span:hover {
-  outline: 0;
-  color: #9198e5;
-  -webkit-transition: color 2s ease;
-  -moz-transition: color 2s ease;
-  -ms-transition: color 2s ease;
-  -o-transition: color 2s ease;
-  transition: color 2s ease;
-  cursor: pointer;
-}
-
-span:after,
-span:before {
-  -webkit-transition: all 2s ease 0s;
-  -moz-transition: all 2s ease 0s;
-  -ms-transition: all 2s ease 0s;
-  -o-transition: all 2s ease 0s;
-  transition: all 2s ease 0s;
-}
-
-span:focus:after,
-span:focus:before,
-span:hover:after,
-span:hover:before {
-  outline: 0;
-  background-color: #000750;
-  -webkit-transition: all 2s ease 0s;
-  -moz-transition: all 2s ease 0s;
-  -ms-transition: all 2s ease 0s;
-  -o-transition: all 2s ease 0s;
-  transition: all 2s ease 0s;
-}
-
 /* Bouncing hover effects */
 @keyframes bounce {
   0%,
@@ -633,7 +526,7 @@ span:hover:before {
   }
 }
 
-/* Media Queries for change background buttons */
+/* Media Queries  */
 @media only screen and (max-width: 1000px) {
   .nav-bar {
     text-align: center !important;
@@ -641,6 +534,9 @@ span:hover:before {
     font-family: 'Raleway', sans-serif;
     font-size: 0.9em;
     padding: 0.9em;
+  }
+  .intro {
+    font-size: 2.5em;
   }
   .lead {
     font-size: 1.4em !important;
