@@ -4,19 +4,19 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background: #12c2e9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  background-image: linear-gradient(
     to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    #592dc6,
+    #4c4cd5,
+    #4165e1,
+    #407be9,
+    #4a8fee,
+    #4a8fee,
+    #407be9,
+    #4165e1,
+    #4c4cd5,
+    #592dc6
+  );
 }
 
 a {
@@ -205,6 +205,10 @@ canvas {
   font-size: 1.1em;
   list-style: none !important;
   font-weight: 600;
+}
+
+#additionalSkills {
+  text-align: center;
 }
 
 td {
