@@ -4,19 +4,19 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background-image: linear-gradient(
+  background: #05aed4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
     to right,
-    #592dc6,
-    #4c4cd5,
-    #4165e1,
-    #407be9,
-    #4a8fee,
-    #4a8fee,
-    #407be9,
-    #4165e1,
-    #4c4cd5,
-    #592dc6
-  );
+    #e957c5,
+    #652ad1,
+    #05aed4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e957c5,
+    #652ad1,
+    #05aed4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 a {
