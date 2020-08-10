@@ -429,4 +429,9 @@ main {
   h2 {
     font-size: 1.3em;
   }
+
+  .portfolioImage {
+    position: relative;
+    right: 10px;
+  }
 }
