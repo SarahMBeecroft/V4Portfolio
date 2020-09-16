@@ -405,22 +405,25 @@ main {
   .nav-bar {
     text-align: center !important;
     line-height: 1.4;
-    font-family: 'Raleway', sans-serif;
-    font-size: 0.9em;
+    font-size: 1.1em;
     padding: 0.9em;
   }
   .intro {
-    font-size: 2.7em;
+    font-size: 2.9em;
   }
 
   .lead {
-    font-size: 1.4em !important;
+    font-size: 1.6em !important;
     position: relative;
     bottom: 1em;
   }
 
   h2 {
-    font-size: 1.3em;
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1em;
   }
 
   .portfolioImage {
