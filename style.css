@@ -4,12 +4,12 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background-image: linear-gradient(
-    to bottom,
-    #5526d6 0%,
-    #5388f8 40%,
-    #10a5a2 100%
-  );
+  background: url(images/milkyway.jpg) no-repeat center center fixed;
+  color: #3a0188;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a {
@@ -18,11 +18,10 @@ a {
 
 /* Hi, I'm Sarah */
 .intro {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400 !important;
-  font-size: 4em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4.8em;
   margin-bottom: 0;
-  color: #000750;
+  color: #3a0188;
   cursor: pointer;
   position: relative;
   display: inline-block;
@@ -76,8 +75,8 @@ a {
 
 /* A Full Stack Web Developer */
 .lead {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 2em !important;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.6em !important;
   color: white;
   position: relative;
   bottom: 1em;
@@ -88,10 +87,10 @@ a {
 }
 
 h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.6em !important;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em !important;
   font-weight: 600 !important;
-  color: #000750;
+  color: #3a0188;
   text-align: center;
   padding: 0.5em;
 }
@@ -101,7 +100,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.2em !important;
 }
 
@@ -112,8 +111,8 @@ h3:hover {
 p {
   line-height: 1.4;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.1em;
-  color: white;
+  font-size: 1.2em;
+  color: #3a0188;
 }
 
 header {
@@ -144,8 +143,8 @@ canvas {
 .nav-bar {
   text-align: center !important;
   line-height: 1.4;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.1em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.6em;
   padding: 1em;
   position: relative;
   right: 1em;
@@ -159,7 +158,7 @@ canvas {
 }
 
 .nav-item:hover {
-  color: #000750;
+  color: #3a0188;
 }
 
 /*  About Me section */
@@ -183,7 +182,7 @@ canvas {
 }
 
 .projects a {
-  color: #000750;
+  color: #3a0188;
 }
 
 /* Skills section */
@@ -209,7 +208,7 @@ td {
 }
 
 td:hover {
-  color: #000750;
+  color: #3a0188;
   cursor: pointer;
 }
 
@@ -227,7 +226,7 @@ td:hover {
 }
 
 .social-links1 a:hover {
-  color: #e943cd;
+  color: #3a0188;
   cursor: pointer;
 }
 
@@ -250,7 +249,7 @@ td:hover {
   font-size: 1em;
   position: relative;
   bottom: 0.5em;
-  color: #000750;
+  color: #3a0188;
 }
 
 .portfolioIconText:hover {
@@ -263,13 +262,14 @@ td:hover {
 
 #portfolioTitle {
   text-decoration: none !important;
-  color: white;
+  color: #3a0188;
   position: relative;
+  font-size: 1.5em;
   top: 0.6em;
 }
 
 #portfolioTitle:hover {
-  color: #000750;
+  color: white;
 }
 
 .portfolioImage {
@@ -322,10 +322,10 @@ td:hover {
 }
 
 .social-links2 a {
-  font-size: 25px;
+  font-size: 28px;
   padding: 0px 8px;
   text-decoration: none;
-  color: #000750;
+  color: #3a0188;
   text-align: center;
 }
 
