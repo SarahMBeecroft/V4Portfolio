@@ -4,8 +4,19 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background: url(images/milkyway.jpg) no-repeat center center fixed;
-  color: #3a0188;
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #33017a;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -112,7 +123,7 @@ p {
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
-  color: #3a0188;
+  color: #33017a;
 }
 
 header {
