@@ -16,7 +16,7 @@ body {
     #4568dc
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  color: #33017a;
+  color: #3a0188;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -123,7 +123,7 @@ p {
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
-  color: #33017a;
+  color: #3a0188;
 }
 
 header {
@@ -237,7 +237,7 @@ td:hover {
 }
 
 .social-links1 a:hover {
-  color: #3a0188;
+  color: #973eb3;
   cursor: pointer;
 }
 
@@ -430,11 +430,11 @@ main {
   }
 
   h2 {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .portfolioImage {
