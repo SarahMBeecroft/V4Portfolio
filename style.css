@@ -4,7 +4,18 @@ html {
 
 body {
   overflow-x: hidden !important;
-  background: url(images/milkyway.jpg) no-repeat center center fixed;
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #3a0188;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -18,8 +29,8 @@ a {
 
 /* Hi, I'm Sarah */
 .intro {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 4.8em;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 4.6em;
   margin-bottom: 0;
   color: #3a0188;
   cursor: pointer;
@@ -75,8 +86,8 @@ a {
 
 /* A Full Stack Web Developer */
 .lead {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 2.6em !important;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 2.2em !important;
   color: white;
   position: relative;
   bottom: 1em;
@@ -87,8 +98,8 @@ a {
 }
 
 h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 2em !important;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1.8em !important;
   font-weight: 600 !important;
   color: #3a0188;
   text-align: center;
@@ -100,8 +111,8 @@ h2 {
 }
 
 h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.2em !important;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1em !important;
 }
 
 h3:hover {
@@ -110,7 +121,7 @@ h3:hover {
 
 p {
   line-height: 1.4;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
   color: #3a0188;
 }
@@ -143,8 +154,8 @@ canvas {
 .nav-bar {
   text-align: center !important;
   line-height: 1.4;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.6em;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1.2em;
   padding: 1em;
   position: relative;
   right: 1em;
@@ -193,7 +204,7 @@ canvas {
 .skillsTable {
   display: inline-block;
   line-height: 1.4;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Proza Libre', sans-serif;
   font-size: 1.4em;
   list-style: none !important;
   font-weight: 600;
@@ -226,7 +237,7 @@ td:hover {
 }
 
 .social-links1 a:hover {
-  color: #3a0188;
+  color: #973eb3;
   cursor: pointer;
 }
 
@@ -245,7 +256,7 @@ td:hover {
 }
 
 .portfolioIconText {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   position: relative;
   bottom: 0.5em;
@@ -264,7 +275,7 @@ td:hover {
   text-decoration: none !important;
   color: #3a0188;
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.3em;
   top: 0.6em;
 }
 
@@ -405,25 +416,25 @@ main {
   .nav-bar {
     text-align: center !important;
     line-height: 1.4;
-    font-size: 1.1em;
+    font-size: 0.9em;
     padding: 0.9em;
   }
   .intro {
-    font-size: 2.9em;
+    font-size: 2.7em;
   }
 
   .lead {
-    font-size: 1.6em !important;
+    font-size: 1.4em !important;
     position: relative;
     bottom: 1em;
   }
 
   h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .portfolioImage {
