@@ -101,7 +101,7 @@ h2 {
   font-family: 'Proza Libre', sans-serif;
   font-size: 1.8em !important;
   font-weight: 600 !important;
-  color: #3a0188;
+  color: #280061;
   text-align: center;
   padding: 0.5em;
 }
@@ -121,9 +121,9 @@ h3:hover {
 
 p {
   line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
-  color: #3a0188;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1em;
+  color: #280061;
 }
 
 header {
@@ -174,13 +174,14 @@ canvas {
 
 /*  About Me section */
 .about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0);
-  padding: 0.5em 3.3em 3em 3.3em;
   box-shadow: 8px 8px 18px 0 rgba(0, 0, 0, 0.25),
     -6px -6px 8px 0 rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  justify-content: center;
-  text-align: center;
+  padding: 5em;
 }
 
 .about:hover {
@@ -188,12 +189,25 @@ canvas {
   cursor: pointer;
 }
 
+.profile-image {
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.bio {
+  font-size: 1.2em;
+  padding-top: 2em;
+}
+
 #aboutMe {
   margin-bottom: 1.2em;
 }
 
 .projects a {
-  color: #3a0188;
+  color: #280061;
 }
 
 /* Skills section */
@@ -219,7 +233,7 @@ td {
 }
 
 td:hover {
-  color: #3a0188;
+  color: #280061;
   cursor: pointer;
 }
 
@@ -256,11 +270,11 @@ td:hover {
 }
 
 .portfolioIconText {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1em;
   position: relative;
   bottom: 0.5em;
-  color: #3a0188;
+  color: #280061;
 }
 
 .portfolioIconText:hover {
@@ -273,7 +287,7 @@ td:hover {
 
 #portfolioTitle {
   text-decoration: none !important;
-  color: #3a0188;
+  color: #280061;
   position: relative;
   font-size: 1.3em;
   top: 0.6em;
@@ -312,7 +326,7 @@ td:hover {
 /* Footer */
 .footerSection {
   overflow-x: hidden;
-  background-color: #020918;
+  background-color: #280061;
   width: 100vw;
   position: relative;
   top: 2em;
@@ -336,7 +350,7 @@ td:hover {
   font-size: 28px;
   padding: 0px 8px;
   text-decoration: none;
-  color: #3a0188;
+  color: #280061;
   text-align: center;
 }
 
@@ -434,7 +448,7 @@ main {
   }
 
   p {
-    font-size: 1.1em;
+    font-size: 0.8em;
   }
 
   .portfolioImage {
