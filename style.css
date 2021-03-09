@@ -122,7 +122,8 @@ h3:hover {
 p {
   line-height: 1.4;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: 700;
   color: #280061;
 }
 
